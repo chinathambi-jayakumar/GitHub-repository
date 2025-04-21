@@ -1,0 +1,27 @@
+Task 1: Create a Dictionary of Student Marks
+
+student = {"Jayakumar":80,"Alice":85,"Dharma":98,"Babu":89,"Bindhu":99}
+name = input("Enter the student's name:")
+if name in student:
+    print("{}'s marks:{}".format(name,student[name]))
+else:
+    print("name is not in the dic")
+
+output:
+
+Enter the student's name: Alice
+Alice's marks:85
+
+Task 2: Demonstrate List Slicing 
+
+list=[1,2,3,4,5,6,7,8,9,10]
+Extracted_list = list[0:5]
+reverse_list = Extracted_list[::-1]
+print("The original list is :",list)
+print("Extracted first five elements:", list[0:5])
+print("Reversed extracted elements:", reverse_list[:5])
+
+output:
+The original list is : [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+Extracted first five elements: [1, 2, 3, 4, 5]
+Reversed extracted elements: [5, 4, 3, 2, 1]
